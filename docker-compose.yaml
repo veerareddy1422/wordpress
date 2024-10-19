@@ -10,7 +10,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=wordpress
       - MYSQL_DATABASE=veerareddy
-      - MYSQL_USER=reddyinakollu
+      - MYSQL_USER=reddy
       - MYSQL_PASSWORD=susmitha
 
   wordpress:
@@ -20,7 +20,7 @@ services:
     restart: always
     environment:
       - WORDPRESS_DB_HOST=db
-      - WORDPRESS_DB_USER=reddyinakollu
+      - WORDPRESS_DB_USER=reddy
       - WORDPRESS_DB_PASSWORD=susmitha
       - WORDPRESS_DB_NAME=veerareddy
 
